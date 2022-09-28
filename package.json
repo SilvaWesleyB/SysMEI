@@ -1,0 +1,34 @@
+{
+  "name": "sysmei",
+  "version": "1.0.0",
+  "description": "API criada para desenvolvimento do conhecimento em back end development",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SilvaWesleyB/SysMEI.git"
+  },
+  "keywords": [
+    "SysMEI",
+    "NodeJS",
+    "JS",
+    "Express",
+    "CRUD"
+  ],
+  "author": "Wesley Benites",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SilvaWesleyB/SysMEI/issues"
+  },
+  "homepage": "https://github.com/SilvaWesleyB/SysMEI#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongodb": "^4.10.0",
+    "mongoose": "^6.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
