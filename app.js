@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 // ativando rotas
 app.use('/user', userRouter);
 
-// rodando  server
+// rodando  server 
 app.listen(8080, () => {
 	console.log('Servidor Ativo!');
 });
