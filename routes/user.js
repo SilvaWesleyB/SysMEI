@@ -13,7 +13,7 @@ router.get('/', (req, res, next) => {
 //router.get('/act', userController.add);
 
 //rota adicionar
-//router.post('/act', userController.add);
+router.post('/act', userController.add);
 
 //rota editar/atualizar
 //router.put('/act', userController.add);
