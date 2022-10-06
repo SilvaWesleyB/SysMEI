@@ -5,21 +5,19 @@ var router = express.Router();
 const userController = require('../controllers/userController');
 
 //rota listar todos
-router.get('/', (req, res, next) => {
-    res.send('Bem vindo!');
-});
-
-//rota listar um
-//router.get('/act', userController.add);
+router.get('/', userController.list);
 
 //rota adicionar
 router.post('/act', userController.add);
 
+//rota listar um
+router.get('/act/:id', userController.find);
+
 //rota editar/atualizar
-//router.put('/act', userController.add);
+router.put('/act/:id', userController.update);
 
 //rota deletar
-//router.delete('/act', userController.add);
+router.delete('/act/:id', userController.delete);
 
 //exporta rotas
 module.exports = router;
