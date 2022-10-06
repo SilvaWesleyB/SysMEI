@@ -1,7 +1,7 @@
 {
   "name": "sysmei",
   "version": "1.0.0",
-  "description": "API criada para desenvolvimento do conhecimento em back end development",
+  "description": "API criada para desenvolvimento do conhecimento em back end development e demais funções correlatas",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js"
