@@ -5,6 +5,7 @@ const mongoose = require('mongoose');
 // importando rotas
 const userRouter = require('./routes/user');
 const clienteRouter = require('./routes/cliente');
+const produtoRouter = require('./routes/produto');
 
 // iniciaizando express
 const app = express();
@@ -34,6 +35,7 @@ app.use(express.urlencoded({ extended: true }));
 // ativando rotas
 app.use('/user', userRouter);
 app.use('/cliente', clienteRouter);
+app.use('/produto', produtoRouter);
 
 // rodando  server 
 app.listen(8080, () => {
