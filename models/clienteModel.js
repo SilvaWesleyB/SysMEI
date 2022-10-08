@@ -1,7 +1,7 @@
 // Importando dependencia
 const mongoose = require('mongoose');
 
-// Criando Modelo
+// Define Modelo
 const clienteSchema = new mongoose.Schema({
     name: {
         type: String,
@@ -56,7 +56,7 @@ const clienteSchema = new mongoose.Schema({
         timestamps: true,
     });
 
-//criando modelo
+// Cria modelo
 const Cliente = mongoose.model('clientes', clienteSchema);
 
 // Exportando Model

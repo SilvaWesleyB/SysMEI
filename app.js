@@ -9,7 +9,7 @@ const clienteRouter = require('./routes/cliente');
 // iniciaizando express
 const app = express();
 
-//conectando bd
+// conectando bd
 const username = encodeURIComponent("db_admin");
 const password = encodeURIComponent("wEc2608");
 const cluster = "sysmei.m5wfrp1.mongodb.net";
@@ -17,17 +17,17 @@ const db = "SysMEI";
 
 mongoose.connect(`mongodb+srv://${username}:${password}@${cluster}/${db}?retryWrites=true&w=majority`);
 
-//confirma connection
+// confirma connection
 mongoose.connection.on('connected', () => {
 	console.log('BD Conectaddo!');
 });
 
-//error
+// error
 mongoose.connection.on('error', (err) => {
 	console.log('erro de Conexao' + err);
 });
 
-//carregando fuçoes express
+// carregando fuçoes express
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
