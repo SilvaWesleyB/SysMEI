@@ -5,7 +5,7 @@
 Utilizado também, para fins de teste o banco de dados MongoDB e Insomnia para teste de rotas/requisições.</p>
 
 <h1>Recursos Utilizados</h1>
-<hr>
+
 <ul>
 <li><a href="">NodeJS</a></li>
 <li><a href="">Express</a></li>
