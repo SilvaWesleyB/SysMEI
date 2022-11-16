@@ -7,24 +7,6 @@ const pedidoSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    email: {
-        type: String,
-        required: true,
-        unique: true
-    },
-    contato: {
-        type: String,
-        required: true
-    },
-    tipo: {
-        type: String,
-        required: true
-    },
-    documento: {
-        type: String,
-        required: true,
-        unique: true
-    }
 },
     {
         timestamps: true,
