@@ -1,8 +1,10 @@
+<head>
 <style>
     .bold{
         font-weight: bold;
     }
     </style>
+</head>
 
 <h1>Descrição do Sistema</h1>
 
