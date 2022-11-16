@@ -1,12 +1,3 @@
-
-<head>
-    <style>
-        .bold {
-            font-weight: bold;
-        }
-    </style>
-</head>
-
 <h1>Descrição do Sistema</h1>
 
 <p> Sistema Back-End, desenvolvido utilizando NodeJS, juntamente com a biblioteca Express para criação de Rotas.
@@ -28,12 +19,11 @@
 <ul>
     <li><b>Cliente:</b> nome completo, email, contato, tipo de cliente, cpf/cnpj e endereço completo.
         <ol>
-            <li> Obs: Na listagem dos cliente, os clientes com status "false" aparecer com as letras vermelhas (clientes
-                inativos). </li>
+            <li> Obs: Na listagem dos cliente, os clientes com status "false" aparecer com as letras vermelhas (clientes inativos). </li>
         </ol>
     </li>
 
-    <li> <b>Usuário/vendedor:</b> Nome, id</li>
+    <li> <b> Usuário/vendedor: </b> Nome, id </li>
 
     <li> <b>Produtos: </b>codigo, descrição, quantidade e valor unitario. Deve conter campo de valor total do
         item.
