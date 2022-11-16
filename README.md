@@ -25,7 +25,7 @@
 
 <h1> Dados de um PEDIDO</h1>
 
-<ol>
+<ul>
     <li><b>Cliente:</b> nome completo, email, contato, tipo de cliente, cpf/cnpj e endereço completo.
         <ol>
             <li> Obs: Na listagem dos cliente, os clientes com status "false" aparecer com as letras vermelhas (clientes
@@ -33,7 +33,7 @@
         </ol>
     </li>
 
-    <li><b>Usuário/vendedor:</b> Nome, id</li>
+    <li> <b>Usuário/vendedor:</b> Nome, id</li>
 
     <li> <b>Produtos: </b>codigo, descrição, quantidade e valor unitario. Deve conter campo de valor total do
         item.
@@ -45,5 +45,5 @@
     <li><b>Pagamento:</b> Tipo de pagamento, valor total, campo de desconto (%) e valor final (total - desconto).
     </li>
 
-    <li><b>Status:</b> Aberto, Finalizado/fechado (pago) e Cancelado.</li>
-</ol>
+    <li> <b>Status:</b> Aberto, Finalizado/fechado (pago) e Cancelado.</li>
+</ul>
