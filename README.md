@@ -19,21 +19,18 @@
 <ul>
     <li><b>Cliente:</b> nome completo, email, contato, tipo de cliente, cpf/cnpj e endereço completo.
         <ol>
-            <li> Obs: Na listagem dos cliente, os clientes com status "false" aparecer com as letras vermelhas (clientes inativos). </li>
+        <li> Obs: Na listagem dos cliente, os clientes com status "false" aparecer com as letras vermelhas (clientes inativos). </li>
         </ol>
     </li>
-
-    <li> <b> Usuário/vendedor: </b> Nome, id </li>
-
-    <li> <b>Produtos: </b>codigo, descrição, quantidade e valor unitario. Deve conter campo de valor total do
+    <li><b>Usuário/vendedor: </b> Nome, id
+    </li>
+    <li><b>Produtos: </b>codigo, descrição, quantidade e valor unitario. Deve conter campo de valor total do
         item.
         <ol>
             <li> Obs: Na tela de busca de produtos, produtos sem estoque devem aparecer com letra em vermelho.</li>
         </ol>
     </li>
-
     <li><b>Pagamento:</b> Tipo de pagamento, valor total, campo de desconto (%) e valor final (total - desconto).
     </li>
-
     <li> <b>Status:</b> Aberto, Finalizado/fechado (pago) e Cancelado.</li>
 </ul>
