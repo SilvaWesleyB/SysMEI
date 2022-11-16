@@ -14,7 +14,7 @@
     <li><a href="https://insomnia.rest/" target="_blank">Insomnia</a></li>
 </ul>
 
-<h1> Dados de um PEDIDO</h1>
+<h2> Dados de um PEDIDO</h2>
 
 <ul>
     <li><b>Cliente:</b> nome completo, email, contato, tipo de cliente, cpf/cnpj e endereço completo.
