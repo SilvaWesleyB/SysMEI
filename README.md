@@ -16,12 +16,21 @@ Utilizado também, para fins de teste o banco de dados MongoDB e Insomnia para t
 
 <h1> Dados de um PEDIDO</h1>
 
-<ul>
+<ol>
 <li>Cliente: nome completo, email, contato, tipo de cliente, cpf/cnpj e endereço completo.
-    Obs: Na listagem dos cliente, os clientes com status "false" aparecer com as letras vermelhas (clientes inativos). </li>
+<ol>
+    <li> Obs: Na listagem dos cliente, os clientes com status "false" aparecer com as letras vermelhas (clientes inativos). </li>
+    </ol> </li>
+
 <li>Usuário/vendedor: Nome, id</li>
+
 <li> Produtos: codigo, descrição, quantidade e valor unitario. Deve conter campo de valor total do item.
-    Obs: Na tela de busca de produtos, produtos sem estoque devem aparecer com letra em vermelho.</li>
+    <ol>
+    <li> Obs: Na tela de busca de produtos, produtos sem estoque devem aparecer com letra em vermelho.</li>
+    </ol>
+    </li>
+
 <li>Pagamento: Tipo de pagamento, valor total, campo de desconto (%) e valor final (total - desconto).</li>
+
 <li>Status: Aberto, Finalizado/fechado (pago) e Cancelado.</li>
-</ul>
+</ol>
